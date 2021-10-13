@@ -31,14 +31,19 @@ function Banner() {
 
     console.log(movie);
 
+    function truncate(str, n) {
+        return str?.length > n ? str.substr(0, n - 1) + "..." : str;
+    }
+
     return (
         <div>
-            <header className="banner"
+            <header 
+                className="banner"
                 style = {
-                    { 
+                    {
                         backgroudSize: "cover",
                         backgroudImage: `url(
-                        "https://image.tmdb.org/t/p/original/${movie?.backdrop_path}"
+                            "https://image.tmdb.org/t/p/original/${movie?.backdrop_path}"
                         )`,
                         backgroundPosition: "center center",
                     }
@@ -46,7 +51,7 @@ function Banner() {
             > {/* <<<< Backgroud image */}
                 <div className = "banner__contents">
                     {/* title */}
-                    <h1>
+                    <h1 className="banner__title">
                         { movie?.title  || movie?.name || movie?.original_name}
                     </h1>
                     
@@ -57,10 +62,12 @@ function Banner() {
                     </div>
                    
                     <h1 className="banner_description">
-                        {movie?.overview}
+                        {truncate(movie?.overview, 150)}
+                        {/* {movie?.overview} */}
                     </h1>
 
-
+                    <div className="banner--fadeBottom">
+                    </div>
                     {/* description */}
 
                 </div>

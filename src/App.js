@@ -3,6 +3,7 @@ import Row from './Row';
 import './App.css';
 import requests from './requests';
 import Banner from './Banner';
+import Nav from './Nav';
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
       <h1>Hello world!</h1>
 
       {/* Nav */}
-
+      <Nav/>
 
       {/* Banner */}
       <Banner/>
