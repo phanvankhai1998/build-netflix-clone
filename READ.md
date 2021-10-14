@@ -1,3 +1,9 @@
+## =========================================================================
+
+## 🔴 How to Build a NETFLIX Clone with REACT JS for Beginners (in 3 Hours!)
+
+## =========================================================================
+
 ## build-netflix-clone
 
 get TMDB API Key
@@ -5,20 +11,27 @@ get TMDB API Key
 https://www.themoviedb.org/settings/api/request
 
 ## API Key (v3 auth)
+
 9c8b7f71ccb275e81aaada5cf2009298
+
 ## Example API Request
+
 https://api.themoviedb.org/3/movie/550?api_key=9c8b7f71ccb275e81aaada5cf2009298
+
 ## API Read Access Token (v4 auth)
+
 eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI5YzhiN2Y3MWNjYjI3NWU4MWFhYWRhNWNmMjAwOTI5OCIsInN1YiI6IjYxNTkyY2NlZWIxNGZhMDA2MjgxNWE1MCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.5O6dp_kG3lJOdw5cVMfTL9BZAXMoYXfVT6-8NX3iO3o
 
 https://console.firebase.google.com/project/build-netflix-clone/overview
 
 npm install firebase
 
+######################################################
+
+## SDK setup and configuration
 
 ######################################################
-## SDK setup and configuration
-######################################################
+
 ## Tiếp theo, khởi chạy Firebase và bắt đầu tận dụng SDK cho các sản phẩm bạn muốn sử dụng.
 
     // Import the functions you need from the SDKs you need
@@ -55,3 +68,17 @@ firebase init
 firebase deploy
 
 npm i axios
+
+##
+
+npm i react-youtube
+2:42:12
+
+
+firebase init
+
+
+npm run build
+
+
+firebase deploy
